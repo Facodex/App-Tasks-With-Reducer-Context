@@ -1,0 +1,15 @@
+.body{
+  background-color: #124A6F;
+}
+
+.TaskItem{
+  background-color: #051624;
+}
+
+.titleLink{
+  text-decoration: none;
+}
+.title:hover{
+  color: #318bc7;
+  transition: all 0.5s;
+}
