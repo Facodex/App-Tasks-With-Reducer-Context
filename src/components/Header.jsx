@@ -13,9 +13,6 @@ export const Header = () => {
         <Link to='/' className='text-light titleLink'>
           <h2 className='title'>APP TASKS</h2>
         </Link>
-        {/* {
-              tasks?.map((task) => (<p>{task}</p>))
-            } */}
       </div>
 
       <div className="col-md-6 d-flex justify-content-end">

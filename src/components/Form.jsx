@@ -3,10 +3,13 @@ import { TasksContext } from '../context/TasksContext';
 
 export const Form = () => {
 
-    const {tasks, addTask} = useContext(TasksContext);
+    // I bring what I am going to use from the context
+    const {addTask} = useContext(TasksContext);
+    
     const [loading, setLoading] = useState(false);
     const [ready, setReady] = useState(false);
 
+    // function that stored new task and send to function addTask that it contain the dispatch correspond
     const handleSubmit = e => {
         e.preventDefault();
         const newTask = {
