@@ -5,7 +5,7 @@ export const Form = () => {
 
     // I bring what I am going to use from the context
     const {addTask} = useContext(TasksContext);
-    
+
     const [loading, setLoading] = useState(false);
     const [ready, setReady] = useState(false);
 
